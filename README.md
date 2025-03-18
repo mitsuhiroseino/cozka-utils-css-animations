@@ -1,1 +1,1 @@
-# css-animations
+# @cozka/utils-css-animations

@@ -1,0 +1,13 @@
+@keyframes cz-k-fadepulse {
+  0% {
+    background-color: rgba(128, 128, 128, 0.4);
+  }
+  100% {
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+}
+
+.cz-a-fadepulse {
+  background-color: rgba(128, 128, 128, 0.4);
+  animation: cz-k-fade 1.2s linear infinite alternate;
+}
