@@ -13,18 +13,10 @@
   "sideEffects": true,
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/cjs/index.cjs"
-    },
-    "./*": {
-      "import": "./dist/",
-      "require": "./dist/cjs/"
-    }
+    ".": "./src/index.ts",
+    "./*": "./src/*/index.ts"
   },
-  "main": "dist/cjs/index.cjs",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./src/index.ts",
   "files": [
     "dist",
     "LICENSE",
